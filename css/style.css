@@ -1,0 +1,73 @@
+body {
+    margin:0;
+    background-image: url('../images/bg.png');
+    background-repeat: repeat;
+}
+
+span {
+  color:#16b288;
+}
+
+
+.container {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    padding: 0 10px;
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+.logo
+{
+    width: 70%;
+    max-width: 225px;
+    display: block;
+    margin:auto; 
+}
+
+
+.message {
+  font-family:"Roboto";
+  font-weight: 300;
+  font-size:1.8em;
+  text-align: center;
+  color:#fbfaf8;
+  line-height: 1.2em;
+  padding: .2em 0 .6em 0;
+}
+
+.email {
+  width:auto;
+  font-family:"Roboto";
+  font-size: 1.1em;
+  color:#fbfaf8;
+  text-align: center;
+ 
+}
+
+.email:before {
+    content:"";
+    border-left:2px solid #16b288;
+    color:#16b288;
+    padding-left:.4em;
+}
+
+.email:after {
+    content:"";
+    border-right:2px solid #16b288;
+    color:#16b288;
+    padding-right:.4em;
+}
+
+.copyright {
+  font-family:"Roboto";
+  font-size: .75em;
+  color:#fbfaf8;
+  text-align: center;
+  padding: 2.2em 0;
+}
