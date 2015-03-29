@@ -8,6 +8,19 @@ span {
   color:#16b288;
 }
 
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #16b288;
+}
+
+a:hover,
+a:focus {
+  color: #1ad8a5;
+  cursor: pointer;
+}
 
 .container {
     display: table;
@@ -19,7 +32,7 @@ span {
 .content {
     padding: 0 10px;
     display: table-cell;
-    vertical-align: middle;    
+    vertical-align: middle;
 }
 
 .logo
@@ -27,7 +40,7 @@ span {
     width: 70%;
     max-width: 225px;
     display: block;
-    margin:auto; 
+    margin:auto;
 }
 
 
@@ -47,7 +60,7 @@ span {
   font-size: 1.1em;
   color:#fbfaf8;
   text-align: center;
- 
+
 }
 
 .email:before {
